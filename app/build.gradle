@@ -17,10 +17,10 @@ repositories {
 
 android {
     compileSdkVersion 22
-    buildToolsVersion "23.0.0 rc3"
+    buildToolsVersion "23.0.0 rc2"
 
     defaultConfig {
-        applicationId "io.github.UltimateBrowserProject"
+        applicationId "io.github.UltimateBrowserProjectBeta"
         minSdkVersion 16
         targetSdkVersion 22
     }
@@ -30,6 +30,9 @@ android {
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt')
         }
+    }
+    lintOptions {
+        disable 'MissingTranslation'
     }
 }
 

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="io.github.UltimateBrowserProject"
-          android:versionCode="38"
+          package="io.github.UltimateBrowserProjectBeta"
+          android:versionCode="1"
           android:versionName="@string/app_version">
 
     <!-- SDK -->
@@ -19,14 +19,14 @@
 
     <!-- Application -->
     <application android:label="@string/app_name"
-                 android:name=".Application.UltimateBrowserProjectApplication"
+                 android:name="io.github.UltimateBrowserProjectBeta.Application.UltimateBrowserProjectApplication"
                  android:icon="@drawable/ic_launcher"
                  android:allowBackup="true"
                  android:enabled="true"
                  android:largeHeap="true">
 
         <!-- HolderActivity -->
-        <activity android:name=".Activity.HolderActivity"
+        <activity android:name="io.github.UltimateBrowserProjectBeta.Activity.HolderActivity"
                   android:label="@string/app_name"
                   android:launchMode="singleTask"
                   android:theme="@android:style/Theme.NoDisplay">
@@ -40,13 +40,13 @@
         </activity>
 
         <!-- HolderService -->
-        <service android:name=".Service.HolderService"
+        <service android:name="io.github.UltimateBrowserProjectBeta.Service.HolderService"
                  android:label="@string/app_name"
                  android:icon="@drawable/ic_launcher">
         </service>
 
         <!-- BrowserActivity -->
-        <activity android:name=".Activity.BrowserActivity"
+        <activity android:name="io.github.UltimateBrowserProjectBeta.Activity.BrowserActivity"
                   android:label="@string/app_name"
                   android:launchMode="singleInstance"
                   android:configChanges="orientation|keyboardHidden|screenSize"
@@ -74,38 +74,43 @@
         </activity>
 
         <!-- ReadabilityActivity -->
-        <activity android:name=".Activity.ReadabilityActivity"
+        <activity android:name="io.github.UltimateBrowserProjectBeta.Activity.ReadabilityActivity"
                   android:label="@string/readability_label"
                   android:theme="@style/ReadabilityActivityTheme">
         </activity>
 
         <!-- SettingActivity -->
-        <activity android:name=".Activity.SettingActivity"
+        <activity android:name="io.github.UltimateBrowserProjectBeta.Activity.SettingActivity"
                   android:label="@string/setting_label"
                   android:theme="@style/SettingActivityTheme">
         </activity>
 
         <!-- WhitelistActivity -->
-        <activity android:name=".Activity.WhitelistActivity"
+        <activity android:name="io.github.UltimateBrowserProjectBeta.Activity.WhitelistActivity"
                   android:label="@string/whitelist_label"
                   android:theme="@style/WhitelistActivityTheme">
         </activity>
 
+        <!-- PrintDialog -->
+        <activity android:name=".Print.PrintDialogActivity"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:exported="false" />
+
         <!-- TokenActivity -->
-        <activity android:name=".Activity.TokenActivity"
+        <activity android:name="io.github.UltimateBrowserProjectBeta.Activity.TokenActivity"
                   android:label="@string/token_label"
                   android:theme="@style/TokenActivityTheme">
         </activity>
 
         <!-- ClearActivity -->
-        <activity android:name=".Activity.ClearActivity"
+        <activity android:name="io.github.UltimateBrowserProjectBeta.Activity.ClearActivity"
                   android:label="@string/clear_label"
                   android:theme="@style/ClearActivityTheme">
         </activity>
 
 
         <!-- ClearService -->
-        <service android:name=".Service.ClearService"
+        <service android:name="io.github.UltimateBrowserProjectBeta.Service.ClearService"
                  android:label="@string/app_name"
                  android:icon="@drawable/ic_launcher">
         </service>

@@ -26,7 +26,7 @@ Some of the TODO items on the list are -
 
 ## Downloads - 
 
-[Download Latest Version 1.4.6](https://github.com/balzathor/UltimateBrowserProject/releases/download/latest/UltimateBrowserProject.apk)
+[Download Latest Version 1.0-ß](https://github.com/balzathor/UltimateBrowserProject/releases/download/latest/UltimateBrowserProject.apk)
 
 ## Permissions:
 ```android.permission.INTERNET``` - Browsing requirements.
@@ -54,9 +54,7 @@ Some of the TODO items on the list are -
 
 ###Note - Please do not add ```.idea``` folder to the git while posting a pull request. Add ```.idea/``` to the gitignore file
 
-## Derivatives 
-
-* [Snap Browser](http://forum.xda-developers.com/android/apps-games/app-snap-browser-fast-lightweight-dont-t3164910)
+## IF YOU EVER WANT MAKE YOUR OWN BROWSER OUT OF THIS, YOU'RE FREE TO DO SO, BUT MAKE SURE TO TELL ME, I'LL ADD IT HERE :)
 
 
 ## Translations by:

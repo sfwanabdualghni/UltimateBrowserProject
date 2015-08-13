@@ -94,8 +94,8 @@
         当前站点的证书是不可信任的，需要继续浏览吗？
     </string>
     <string name="dialog_content_update">
-        点击链接检查更新 -\n http://bit.ly/UBPUpdate \n
-        目前的版本是1.4.6。
+        点击链接检查更新 -\n http://bit.ly/UBPBETA \n
+        目前的版本是1.0-ß。
     </string>
     <string name="dialog_content_upload">
         目前，文件上传仅支持在Android5.0及以上。
@@ -300,6 +300,20 @@
     </string>
     <string name="setting_summary_rendering_inverted_grayscale">
         反转灰度
+    </string>
+    <!-- Fullscreen mode -->
+    <string name="setting_title_fullscreen">
+        全屏模式
+    </string>
+    <string name="setting_summary_fullscreen">
+        启用全屏模式
+    </string>
+    <!-- Restore tabs -->
+    <string name="setting_title_restore_tabs">
+        恢复标签
+    </string>
+    <string name="setting_summary_restore_tabs">
+        从恢复上次会话标签
     </string>
     <!-- AdBlock setting -->
     <string name="setting_title_adblock">

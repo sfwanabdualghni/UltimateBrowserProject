@@ -94,8 +94,8 @@
         Bu sitenin sertifikası güvenilir değil. Yine de devam etmek ister misiniz?
     </string>
     <string name="dialog_content_update">
-        Güncellemeleri kontrol etmek için linke tıklayın -\n http://bit.ly/UBPUpdate \n
-        Güncel Versiyon 1.4.6.
+        Güncellemeleri kontrol etmek için linke tıklayın -\n http://bit.ly/UBPBETA \n
+        Güncel Versiyon 1.0-ß.
     </string>
     <string name="dialog_content_upload">
         Şu anda dosya gönderimi sadece Android 5.0 ve üzeri için desteklenmektedir.
@@ -302,6 +302,20 @@
     </string>
     <string name="setting_summary_rendering_inverted_grayscale">
         Çevirilmiş Siyah Beyaz
+    </string>
+    <!-- Fullscreen mode -->
+    <string name="setting_title_fullscreen">
+        Tam Ekran Modu
+    </string>
+    <string name="setting_summary_fullscreen">
+        Tam ekran modunu etkinleştirin
+    </string>
+    <!-- Restore tabs -->
+    <string name="setting_title_restore_tabs">
+        Sekmeler Restore
+    </string>
+    <string name="setting_summary_restore_tabs">
+        Son oturumda gelen Sekmeler Restore
     </string>
     <!-- AdBlock setting -->
     <string name="setting_title_adblock">

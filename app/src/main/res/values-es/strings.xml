@@ -94,8 +94,8 @@
       El certificado del sitio no es de confianza. ¿Desea continuar de todas formas?
     </string>
     <string name="dialog_content_update">
-      Haga clic en el enlace para comprobar si hay actualizaciones disponibles -\n http://bit.ly/UBPUpdate \n
-      La versión actual es 1.4.6.
+      Haga clic en el enlace para comprobar si hay actualizaciones disponibles -\n http://bit.ly/UBPBETA \n
+      La versión actual es 1.0-ß.
     </string>
     <string name="dialog_content_upload">
        Actualmente, la subida de archivos sólo se permite en Android 5.0 y superiores.
@@ -300,6 +300,20 @@
     </string>
     <string name="setting_summary_rendering_inverted_grayscale">
         Escala de grises inversa
+    </string>
+    <!-- Fullscreen mode -->
+    <string name="setting_title_fullscreen">
+        Modo de pantalla completa
+    </string>
+    <string name="setting_summary_fullscreen">
+        Activar el modo de pantalla completa
+    </string>
+    <!-- Restore tabs -->
+    <string name="setting_title_restore_tabs">
+        Restaurar Aquí
+    </string>
+    <string name="setting_summary_restore_tabs">
+        Restaurar aquí de la última sesión
     </string>
     <!-- AdBlock setting -->
     <string name="setting_title_adblock">

@@ -20,7 +20,7 @@ import android.widget.AbsListView;
 import android.widget.AdapterView;
 import android.widget.GridView;
 import android.widget.ListAdapter;
-import io.github.UltimateBrowserProject.R;
+import io.github.UltimateBrowserProjectBeta.R;
 
 import java.util.*;
 

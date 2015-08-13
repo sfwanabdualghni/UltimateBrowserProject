@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<io.github.UltimateBrowserProject.View.UltimateBrowserProjectRelativeLayout
+<io.github.UltimateBrowserProjectBeta.View.UltimateBrowserProjectRelativeLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -9,8 +9,7 @@
     <ListView android:id="@+id/record_list"
               android:layout_width="match_parent"
               android:layout_height="match_parent"
-              android:drawSelectorOnTop="true"
-              android:paddingTop="@dimen/layout_height_48dp">
+              android:drawSelectorOnTop="true">
     </ListView>
 
     <TextView android:id="@+id/record_list_empty"
@@ -26,4 +25,4 @@
               android:visibility="gone">
     </TextView>
 
-</io.github.UltimateBrowserProject.View.UltimateBrowserProjectRelativeLayout>
+</io.github.UltimateBrowserProjectBeta.View.UltimateBrowserProjectRelativeLayout>

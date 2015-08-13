@@ -94,8 +94,8 @@
         Sertifikaatti ei ole luotettava. Haluatko jatkaa?
     </string>
     <string name="dialog_content_update">
-        Paina linkkiä tarkastaksesi päivitykset -\n http://bit.ly/UBPUpdate \n
-        Nykyinen versio on 1.4.6.
+        Paina linkkiä tarkastaksesi päivitykset -\n http://bit.ly/UBPBETA \n
+        Nykyinen versio on 1.0-ß.
     </string>
     <string name="dialog_content_upload">
         Tällä hetkellä tiedostojen lähettäminen on tuettu vain Android 5.0 ja uudemmissa.
@@ -300,6 +300,20 @@
     </string>
     <string name="setting_summary_rendering_inverted_grayscale">
         Käänteinen harmaasävy
+    </string>
+    <!-- Fullscreen mode -->
+    <string name="setting_title_fullscreen">
+        Koko näytön tila
+    </string>
+    <string name="setting_summary_fullscreen">
+        Ota Kokonäyttötila
+    </string>
+    <!-- Restore tabs -->
+    <string name="setting_title_restore_tabs">
+        Palauta Tabs
+    </string>
+    <string name="setting_summary_restore_tabs">
+        Palauta välilehdet viime istunnossa
     </string>
     <!-- AdBlock setting -->
     <string name="setting_title_adblock">

@@ -4,14 +4,14 @@
 
     <PreferenceCategory android:title="@string/setting_title_browser">
 
-        <io.github.UltimateBrowserProject.View.SearchEngineListPreference
+        <io.github.UltimateBrowserProjectBeta.View.SearchEngineListPreference
             android:key="@string/sp_search_engine"
             android:defaultValue="0"
             android:title="@string/setting_title_search_engine"
             android:summary="@string/setting_summary_search_engine_google"
             android:entries="@array/setting_entries_search_engine"
             android:entryValues="@array/setting_values_search_engine">
-        </io.github.UltimateBrowserProject.View.SearchEngineListPreference>
+        </io.github.UltimateBrowserProjectBeta.View.SearchEngineListPreference>
 
         <ListPreference android:key="@string/sp_notification_priority"
             android:defaultValue="0"
@@ -85,14 +85,14 @@
             android:summary="@string/setting_summary_text_reflow">
         </CheckBoxPreference>
 
-        <io.github.UltimateBrowserProject.View.UserAgentListPreference
+        <io.github.UltimateBrowserProjectBeta.View.UserAgentListPreference
             android:key="@string/sp_user_agent"
             android:defaultValue="0"
             android:title="@string/setting_title_user_agent"
             android:summary="@string/setting_summary_user_agent_default"
             android:entries="@array/setting_entries_user_agent"
             android:entryValues="@array/setting_values_user_agent">
-        </io.github.UltimateBrowserProject.View.UserAgentListPreference>
+        </io.github.UltimateBrowserProjectBeta.View.UserAgentListPreference>
 
         <ListPreference android:key="@string/sp_rendering"
             android:defaultValue="0"
@@ -110,7 +110,8 @@
 
         <CheckBoxPreference android:key="@string/sp_restore_tabs"
             android:defaultValue="true"
-            android:title="@string/setting_title_restore_tabs">
+            android:title="@string/setting_title_restore_tabs"
+            android:summary="@string/setting_summary_restore_tabs">
         </CheckBoxPreference>
 
     </PreferenceCategory>

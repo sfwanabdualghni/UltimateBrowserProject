@@ -94,8 +94,8 @@
         此網站的識別資訊不被信任，繼續執行嗎？
     </string>
     <string name="dialog_content_update">
-        按這裡檢查更新 -\n http://bit.ly/UBPUpdate \n
-        目前版本是 1.4.6.
+        按這裡檢查更新 -\n http://bit.ly/UBPBETA \n
+        目前版本是 1.0-ß.
     </string>
     <string name="dialog_content_upload">
         目前只有 Android 5.0 版以上支援檔案上傳功能
@@ -300,6 +300,20 @@
     </string>
     <string name="setting_summary_rendering_inverted_grayscale">
         灰階色彩反轉
+    </string>
+    <!-- Fullscreen mode -->
+    <string name="setting_title_fullscreen">
+        全屏模式
+    </string>
+    <string name="setting_summary_fullscreen">
+        啟用全屏模式
+    </string>
+    <!-- Restore tabs -->
+    <string name="setting_title_restore_tabs">
+        恢復標籤
+    </string>
+    <string name="setting_summary_restore_tabs">
+        從恢復上次會話標籤
     </string>
     <!-- AdBlock setting -->
     <string name="setting_title_adblock">

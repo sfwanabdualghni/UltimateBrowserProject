@@ -94,8 +94,8 @@
         Το πιστοποιητικό της σελίδας δεν είναι έμπιστο. Συνέχεια;
     </string>
     <string name="dialog_content_update">
-        Κάντε κλίκ στο σύνδεσμο για έλεγχο για ενημερώσεις -\n http://bit.ly/UBPUpdate \n
-        Η τρέχουσα έκδοση είναι η 1.4.6.
+        Κάντε κλίκ στο σύνδεσμο για έλεγχο για ενημερώσεις -\n http://bit.ly/UBPBETA \n
+        Η τρέχουσα έκδοση είναι η 1.0-ß.
     </string>
     <string name="dialog_content_upload">
         Προς το παρόν, η αποστολή αρχείου υποστηρίζεται μόνο σε Android 5.0 και πάνω.
@@ -300,6 +300,20 @@
     </string>
     <string name="setting_summary_rendering_inverted_grayscale">
         Αντίστροφη κλίμακα γκρι
+    </string>
+    <!-- Fullscreen mode -->
+    <string name="setting_title_fullscreen">
+        Λειτουργία πλήρους οθόνης
+    </string>
+    <string name="setting_summary_fullscreen">
+        Ενεργοποίηση λειτουργίας πλήρους οθόνης
+    </string>
+    <!-- Restore tabs -->
+    <string name="setting_title_restore_tabs">
+        Επαναφορά Καρτέλες
+    </string>
+    <string name="setting_summary_restore_tabs">
+        Επαναφέρετε τις καρτέλες από την τελευταία συνεδρία
     </string>
     <!-- AdBlock setting -->
     <string name="setting_title_adblock">

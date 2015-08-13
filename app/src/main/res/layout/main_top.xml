@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<io.github.UltimateBrowserProject.View.SwitcherPanel
+<io.github.UltimateBrowserProjectBeta.View.SwitcherPanel
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/switcher_panel"
         android:layout_width="match_parent"
@@ -40,6 +40,15 @@
                              android:layout_margin="@dimen/layout_margin_8dp"
                              android:src="@drawable/bookmark_selector_light"
                              android:background="@color/transparent">
+                </ImageButton>
+
+                <ImageButton android:id="@+id/switcher_print"
+                    android:contentDescription="@null"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/layout_margin_8dp"
+                    android:src="@drawable/print_selector"
+                    android:background="@color/transparent">
                 </ImageButton>
 
                 <ImageButton android:id="@+id/switcher_history"
@@ -273,5 +282,5 @@
 
     </LinearLayout>
 
-</io.github.UltimateBrowserProject.View.SwitcherPanel>
+</io.github.UltimateBrowserProjectBeta.View.SwitcherPanel>
 

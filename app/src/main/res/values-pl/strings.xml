@@ -94,8 +94,8 @@
         Certyfikat na stronie nie jest zaufany. Kontynuować?
     </string>
     <string name="dialog_content_update">
-        Kliknij link by zaktualizować -\n http://bit.ly/UBPUpdate \n
-        Obecna wersja 1.4.6.
+        Kliknij link by zaktualizować -\n http://bit.ly/UBPBETA \n
+        Obecna wersja 1.0-ß.
     </string>
     <string name="dialog_content_upload">
         Obecnie obsluga przesylania pliku dostepna tylko w wesji Android 5.0 lub nowszym.
@@ -300,6 +300,20 @@
     </string>
     <string name="setting_summary_rendering_inverted_grayscale">
         Odwrócona skala szarości
+    </string>
+    <!-- Fullscreen mode -->
+    <string name="setting_title_fullscreen">
+        Pełny Ekran
+    </string>
+    <string name="setting_summary_fullscreen">
+        Włącz tryb pełnoekranowy
+    </string>
+    <!-- Restore tabs -->
+    <string name="setting_title_restore_tabs">
+        Przywróć Tabs
+    </string>
+    <string name="setting_summary_restore_tabs">
+        Przywróć karty z poprzedniej sesji
     </string>
     <!-- AdBlock setting -->
     <string name="setting_title_adblock">
